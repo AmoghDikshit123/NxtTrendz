@@ -1,0 +1,120 @@
+/* Write your CSS here */
+.product-details-image {
+  height: 50vh;
+  width: 100%;
+  border-radius: 20px;
+}
+.details-sub-container {
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.img-container {
+  width: 100%;
+}
+.details-text-container {
+  width: 100%;
+}
+.title-header {
+  font-weight: 600;
+  font-size: 30px;
+}
+.price-text {
+  font-size: 30px;
+}
+.reviews-main-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 55%;
+}
+.reviews-container {
+  height: 45px;
+  width: 80px;
+  border: none;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.horizontal-line {
+  height: 1px;
+  width: 100%;
+}
+.quantity-container {
+  width: 32%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.cart-button {
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+  width: 32%;
+  height: 35px;
+  margin-top: 10px;
+  color: white;
+}
+.similar-products-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+.similar-products-main-container {
+  padding: 20px;
+}
+.continue-shopping-button {
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+  width: 20%;
+  height: 35px;
+  margin-top: 10px;
+  color: white;
+}
+.failure-container {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.loader-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-image {
+  height: 30vh;
+  width: 80%;
+}
+@media screen and (min-width: 768px) {
+  .details-sub-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .product-details-image {
+    height: 80vh;
+    width: 90%;
+  }
+
+  .img-container {
+    gap: 20px;
+  }
+  .similar-products-list {
+    flex-direction: row;
+  }
+}
